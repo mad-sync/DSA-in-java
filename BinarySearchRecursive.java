@@ -15,7 +15,7 @@ public class BinarySearchRecursive {
 
     public static int binarySearch(int[] nums, int target, int left, int right) {
 
-        while(left <= right){
+        if(left <= right){
             int mid = (left + right ) / 2;
 
             if(nums[mid] == target){
